@@ -1,0 +1,102 @@
+.student_container {
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjusted gap between images */
+    background-color: transparent;
+}
+
+.photo img{
+    width: 150px; /* Adjusted size for smaller images */
+    height: 100px; /* Adjusted size for smaller images */
+    object-fit: contain; /* Changed to contain to maintain aspect ratio */
+    background-color: transparent; /* Ensure background is transparent */
+}
+.p2{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    color: rgb(86, 179, 32);
+  }
+  .h2{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    
+  }
+  .p3{
+    margin-left: 20%;
+    margin-bottom: 3%;
+    font-size: 30px;
+    width: 70%;
+    
+  }
+  .h3{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    color: rgb(86, 179, 32);
+    font-weight: 200;
+    
+  }
+  .photo_container{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .photo_container .imgs1{
+    width: 70%;
+  }
+  .photo3{
+    display: flex;
+    margin-left: 19%;
+    margin-top: 2%;
+  }
+  .arrow{
+    display: flex;
+    margin-left: 18%;
+    margin-bottom: 2%;
+  }
+.h5{
+    margin-top: 5%;
+}
+.img2{
+    width: 16%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+.photo4{
+    display: flex;
+    margin-left: 42%;
+    margin-top: 1%;
+}
+.arrow1{
+    display: flex;
+    margin-left: 42%;
+    margin-bottom: 2%;
+  }
+  .photo7 {
+    margin-left: 17%;
+    position: relative;
+    display: inline-block; /* Ensure the container only takes up the space it needs */
+  }
+  
+  .photo7 img {
+    display: block; /* Remove any extra space below the image */
+    width: 90%; /* Make the image responsive if needed */
+    height: auto;
+  }
+  
+  .photo7 h1 {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Adjust text color for visibility */
+    padding: 10px; /* Optional: Add padding around the text */
+    text-align: left;
+    left:20%;
+
+  }
+  
